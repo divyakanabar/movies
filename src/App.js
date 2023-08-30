@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Movie from './components/Movie';
 
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       {movies.map(movie => (
-        <Movie key={movie.id} data={movie} />
+        <Movie key={movie.id} {...movie} />
       ))}
 
     </div>
