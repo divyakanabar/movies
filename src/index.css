@@ -20,10 +20,17 @@ header{
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .search{
-
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 2pm solid #22254b;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #22254b ;
+  padding: 0.5rem 1.5rem;
 }
 
 .movie{
