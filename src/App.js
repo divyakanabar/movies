@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="movie-container">
       {movies.map(movie => (
         <Movie key={movie.id} {...movie} />
       ))}
