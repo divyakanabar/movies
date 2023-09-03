@@ -58,7 +58,7 @@ function App() {
       ))}
 
     </div>
-    <footer><a href="https://github.com/divyakanabar/movies"  target="_blank">View Github Repository here</a></footer>
+    <footer><a href="https://github.com/divyakanabar/movies"  target="_blank" rel="noreferrer">View Github Repository here</a></footer>
     </>
   );
 }
