@@ -58,6 +58,7 @@ function App() {
       ))}
 
     </div>
+    <footer><a href="https://github.com/divyakanabar/movies">View Github Repository here</a></footer>
     </>
   );
 }

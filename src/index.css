@@ -148,3 +148,13 @@ form a {
 .tag.red{
   color: red;
 }
+
+footer{
+  text-align: center;
+  margin: 1.5rem;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
