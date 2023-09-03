@@ -40,7 +40,7 @@ function App() {
     <>
     <header>
       <form onSubmit={handleOnSubmit}>
-        <span className="heading">New Movie Summary + IMDB Rating</span>
+        <span className="heading"><a href="/">New Movie Summary + IMDB Rating</a></span>
         <input
           className="search"
           type="search"

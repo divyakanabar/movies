@@ -30,6 +30,11 @@ header{
   float: left;
 }
 
+.heading a{
+  color: white;
+  text-decoration: none;
+}
+
 .search{
   font-family: inherit;
   font-size: 1.2rem;
@@ -56,7 +61,9 @@ header{
 }
 
 .movie img{
-  max-width: 100%;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 
 .movie-container{

@@ -4,18 +4,18 @@ const IMG_API = "https://image.tmdb.org/t/p/w1280";
 
 const setVoteClass= (vote) =>{
     if(vote>= 8){
-        return 'green'
+        return "green"
     }
     else if(vote>=6){
-        return 'orange'
+        return "orange"
     }
-    else return 'red'
+    else return "red"
 }
 
 export default function Movie({ title, poster_path, overview, vote_average }) {
     return (
         <div className="movie">
-            <img src={IMG_API + poster_path} alt={title} />
+            <img src={poster_path? (IMG_API + poster_path) : "https://images.unsplash.com/photo-1634157703702-3c124b455499?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1856&q=80"} alt={title} />
             <div className="movie-info">
                 <h3>{title}</h3>
                 <span className=
